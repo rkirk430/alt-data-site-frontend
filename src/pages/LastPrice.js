@@ -19,7 +19,7 @@ function LastPrice(props) {
   const getPrice = async () => {
     const response = await fetch(url);
     const data = await response.json();
-    console.log(data[0].symbol);
+    // console.log(data[0].symbol);
     setPrice(data);
   };
 
@@ -30,7 +30,7 @@ function LastPrice(props) {
   const loaded = () => {
     return (
       <div>
-        <h1> The value of one share of {price[0].symbol} is ${price[0].price}</h1>
+        {/* <h1> The value of one share of {price[0].symbol} is ${price[0].price}</h1> */}
       </div>
     );
   };
