@@ -1,3 +1,4 @@
+import { data } from "autoprefixer";
 import React from "react";
 import { useState, useEffect } from "react";
 import { useParams } from "react-router";
@@ -26,7 +27,15 @@ function LastPrice(props) {
     getPrice();
   }, []);
 
-  return <h1>Last Price Page</h1>;
-}
+  const loaded = () => {
+    return (
+      <div>
+        <h1> The value of one share of {price[0].symbol} is ${price[0].price}</h1>
+      </div>
+    );
+  };
+
+  return price ? loaded() : <h1> Loading...</h1>
+};
 
 export default LastPrice;
