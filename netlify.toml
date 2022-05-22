@@ -1,6 +1,1 @@
-[[redirects]]
-  from = "/*"
-  to = "/home.html"
-  to = "/government.html"
-  to = "/sentiment.html"
-  to = "/lastprice.html"
+/* /index.html 200
