@@ -10,14 +10,15 @@ import SiteNav from './components/Nav';
 
 
 function App() {
+  const URL = "https://alt-data-site.herokuapp.com/"
   return (
 
     <Router>
       <SiteNav />
       <Routes>
         <Route exact path = "/" element = {<Home />} />
-        <Route path = "/government" element = {<Government />} />
-        <Route path = "/sentiment" element = {<Sentiment />} />
+        <Route path = "/government" element = {<Government URL={URL} />} />
+        <Route path = "/sentiment" element = {<Sentiment URL={URL} />} />
         <Route path = "/lastprice" element = {<LastPrice/>} />
       </Routes>
     </Router>
