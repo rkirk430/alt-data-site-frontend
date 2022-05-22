@@ -20,7 +20,7 @@ function Sentiment(props) {
             // console.log(sentiment.ticker);  Change parathasis around row 22 from "(" to "{" to see console.log data
             // console.log(sentiment.name);
             <div key = {idx}>
-                <p>{sentiment.rank} {sentiment.name} {sentiment.ticker}</p>
+                <p>{sentiment.rank} {sentiment.name} {sentiment.ticker} {sentiment.mentions} {sentiment.upvotes}</p>
             </div>
         ))
     };
