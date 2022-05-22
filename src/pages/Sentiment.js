@@ -20,6 +20,7 @@ function Sentiment(props) {
         return (
             <div className="sentiment">
             <h1>Reddit Sentiment Data</h1>
+            <h3> Sentiment data </h3>
             <Table className="table table-striped table-dark">
                 <thead>
                     <tr>
