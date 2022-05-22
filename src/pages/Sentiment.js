@@ -14,17 +14,13 @@ function Sentiment(props) {
         getSentiment()
     }, []);
 
-    // function weOnOne = () = {
-    //     sentiments.map((sentiment))
-    // }
 
     const loaded = () => {
-        return sentiments.map((sentiment) =>(
+        return sentiments.map((sentiment, idx) =>(
             // console.log(sentiment.ticker);  Change parathasis around row 22 from "(" to "{" to see console.log data
             // console.log(sentiment.name);
-            <div>
-                <h3>{sentiment.name}</h3>
-                <h3>{sentiment.ticker}</h3>
+            <div key = {idx}>
+                <p>{sentiment.rank} {sentiment.name} {sentiment.ticker}</p>
             </div>
         ))
     };
