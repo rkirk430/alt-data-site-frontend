@@ -1,6 +1,6 @@
 [[redirects]]
   from = "/*"
-  to = "/home"
-  to = "/government"
-  to = "/sentiment"
-  to = "/lastprice"
+  to = "/home.html"
+  to = "/government.html"
+  to = "/sentiment.html"
+  to = "/lastprice.html"
