@@ -4,7 +4,7 @@ import Home from './pages/Home';
 import LastPrice from './pages/LastPrice.js';
 import Government from './pages/Government';
 import Sentiment from './pages/Sentiment';
-import SiteNav from './components/Nav';
+import SiteNav from './components/nav';
 
 
 
