@@ -1,16 +1,26 @@
 .homepage {
-  /* background-image: url("http://mdbootstrap.com/img/Photos/Others/images/91.webp");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-  height: 100vh; */
-
-  background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img(11).webp");
+background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img(11).webp");
   height: 50vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.sentimentpage {
+  text-align: left;
+  padding-top: 3vh;
+  padding-bottom: 3vh;
+
+}
+
+.governmentdata {
+  text-align: left;
+  padding-top: 3vh;
+  padding-bottom: 3vh;
+
+}
+
+
 
 /* .background {
   background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img(11).webp");
@@ -30,5 +40,6 @@
   text-align: center;
   padding-top: 18vh;
 };
+
 
 

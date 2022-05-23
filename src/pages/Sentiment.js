@@ -23,8 +23,9 @@ function Sentiment(props) {
                 <Container>
                     <Row className="sentimentpage">
                         <div>
-                        <h1>Reddit Sentiment Tracker</h1>
-                        <h4> Sentiment data </h4>
+                        <h4> Retail Sentiment Tracker</h4>
+                        <h6> About: Tracks retail sentiment across numerous Reddit subs and 4chan to gauge investor interest on individual securities. Tickers are ranked by a combination positive upvotes and mentions across both platforms. </h6>
+                        <h6> Upload Frequency: Data is updated every 24 Hours </h6>
                         </div>
                     </Row>
                 </Container>

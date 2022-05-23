@@ -1,5 +1,7 @@
 import { useState, useEffect } from "react";
 import { Table } from "react-bootstrap";
+import { Container, Row, Col, Card } from "react-bootstrap"
+
 
 function Government(props) {
     const [governments, setGovernment] = useState(null);
@@ -16,9 +18,16 @@ function Government(props) {
 
     const loaded = () => {
         return (
-            <div className="governmentdata">
-            <h1> Congress Trade Data </h1>
-            <h3> About the Dataset </h3>
+            <div>
+            <Container>
+                <Row>
+                    <div className="governmentdata">
+                    <h4> Congressional Trading Data </h4>
+                    <h6> About: Tracks the stock transactions by members of the U.S. Congress involving any given secruity. </h6>
+                    <h6> Upload Frequency: Data is a live feed and is parsed as securities trade data is provided by members of congress. Members are required to disclose transactions within 45 days of its occurance. </h6>
+                    </div>
+                </Row>
+            </Container>
             <Table className="table table-striped table-dark">
                 <thead>
                     <tr>
