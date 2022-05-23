@@ -1,16 +1,13 @@
 import {Navbar, Container, Nav, NavDropdown} from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css"; //Imports results in autoprefixer & other warnings. Resolutions unsuccessful
-// import { Link } from "react-router-dom";
+
 
 function SiteNav(props) {
     return (
-        // NavBar Option 2:
+        // NavBar Option 2: bg="dark" variant="dark" expand="lg"
 
         <div className="navBar">
-            {/* <Link to = "/"> linkhome </Link>
-            <Link to = "/government"> gvt page bruh </Link>
-            <Link to = "/sentiment"> reddit bruhh </Link>  */}
-            <Navbar bg="dark" variant="dark" expand="lg">
+            <Navbar> 
                 <Container>
                     <Navbar.Brand href="/">Quantstamp</Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
