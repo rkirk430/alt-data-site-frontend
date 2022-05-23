@@ -7,7 +7,7 @@ function SiteNav(props) {
         // NavBar Option 2: bg="dark" variant="dark" expand="lg"
 
         <div className="navBar">
-            <Navbar bg="dark" variant="white" expand="lg"> 
+            <Navbar bg="dark" variant="light" expand="lg"> 
                 <Container>
                     <Navbar.Brand href="/">Quantstamp</Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
