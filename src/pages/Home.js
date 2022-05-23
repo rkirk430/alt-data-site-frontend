@@ -1,5 +1,6 @@
 import React from "react";
-import { Container, Row, Col, Card, IconName } from "react-bootstrap"
+import { Container, Row, Col, Card } from "react-bootstrap";
+import { BsFillCalculatorFill, BsFillAlarmFill, BsFillFileCodeFill } from "react-icons/bs";
 
 
 const Home = (props) => {
@@ -33,6 +34,7 @@ const Home = (props) => {
             <Col sm={4} className="benefit_cards">
               <div className="card-body">
                 <div>
+                  <BsFillFileCodeFill size = "2em" />
                   <h5> API Model Integration </h5>
                   <p> Quickly integrate Quantstamp's proprietary datafeeds into your financial models. We provide three tiers of API service to suite the different needs of each of our clients. Enterprise data feeds are available on a customized basis. </p>
                 </div>
@@ -41,6 +43,7 @@ const Home = (props) => {
             <Col sm={4}>
               <div className="card-body">
                 <div>
+                  <BsFillAlarmFill size = "2em" />
                   <h5> Realtime Trade Alerts </h5>
                   <p> Our team provides alert feeds for all of our underling datafeeds that can be sent directly through your Bloomberg Terminal or Factset workstations. Customize them as you see fit. </p>
                 </div>
@@ -49,8 +52,8 @@ const Home = (props) => {
             <Col sm={4}>
               <div className="card-body">
                 <div>
+                <BsFillCalculatorFill size = "2em" />
                   <h5> Improving Risk-Adjusted Returns </h5>
-                  <span className="fas fa-calculator"></span>
                   <p> Quantstamp's realtime alerts and API software allows you to remain ahead of the curve. Our team will help you integrate our datasets into your financial models and provide specialized support for algorithmic trading integration</p>
                 </div>
               </div>
