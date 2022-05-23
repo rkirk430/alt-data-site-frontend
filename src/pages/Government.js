@@ -22,7 +22,9 @@ function Government(props) {
             <Table className="table table-striped table-dark">
                 <thead>
                     <tr>
-                        <th scope="col"> Reported Trade Date </th>
+                        <th scope="col"> Date Trade Reported </th>
+                        <th scope="col"> Transaction Date </th>
+                        <th scope="col"> Ticker</th>
                         <th scope="col"> Government Representative </th>
                         <th scope="col"> Purchase / Sale </th>
                         <th scope="col"> Amount ($) </th>
@@ -32,6 +34,8 @@ function Government(props) {
                 {governments.map((government, idx) => (
                     <tr key = {idx}>
                         <th scope="row">{government.ReportDate}</th>
+                        <td> {government.TransactionDate} </td>
+                        <td> {government.Ticker} </td>
                         <td> {government.Representative} </td>
                         <td> {government.Transaction} </td>
                         <td> {government.Amount} </td>
