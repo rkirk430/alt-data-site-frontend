@@ -30,7 +30,7 @@ function LastPrice(props) {
   const loaded = () => {
     return (
       <div>
-        {/* <h1> The value of one share of {price[0].symbol} is ${price[0].price}</h1> */}
+        <h1> One share of  {price[0].symbol} is ${price[0].price}</h1>
       </div>
     );
   };
