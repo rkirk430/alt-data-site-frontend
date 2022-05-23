@@ -1,7 +1,11 @@
-/* .benefits-title {
-  text-align: center;
-}; */
+.homepage-header {
+  padding-top: 15vh;
+  padding-bottom: 10vh;
+}
+
 
 .homepage-benefits-container{
   text-align: center;
 };
+
+

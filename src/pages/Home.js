@@ -15,13 +15,7 @@ const Home = (props) => {
               <h6> Quantstamp analyzes millions of datapoints to provide granular, actionable insights to underlying market sentiment </h6>
           </Row>
         </Container>
-        <Container>
-          <Row className="benefits-title">
-            <Col sm= {12}>
-              <h6> How to Leverage Quantstamp's Data Feeds: </h6>
-            </Col>
-          </Row>
-        </Container>
+
         <Container>
           <Row className="homepage-benefits-container">
             <Card>
