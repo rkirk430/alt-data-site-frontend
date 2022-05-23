@@ -1,11 +1,12 @@
 import React from "react";
 import { Container, Row, Col, Card } from "react-bootstrap";
 import { BsFillCalculatorFill, BsFillAlarmFill, BsFillFileCodeFill } from "react-icons/bs";
+import BackgroundImagePage from "../components/Backgroundimage";
 
 
 const Home = (props) => {
     return(
-      <div>
+      <div className="homepage">
         <>
         <Container> 
           <Row className="homepage-header">
