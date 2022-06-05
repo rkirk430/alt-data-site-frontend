@@ -1,4 +1,4 @@
-/* .homepage {
+.homepage {
   background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img(11).webp");
   height: 50vh;
   background-position: center;
@@ -32,10 +32,10 @@
 }; */
 
 
-/* .homepage-header {
+.homepage-header {
   padding-top: 15vh;
   padding-bottom: 10vh;
-}
+};
 
 .homepage-benefits-container{
   text-align: center;
@@ -43,4 +43,4 @@
 };
 
 
- */ 
+

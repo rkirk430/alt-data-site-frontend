@@ -14,6 +14,7 @@ function Government(props) {
 
     useEffect(() => {
         getGovernment()
+        // eslint-disable-next-line
     }, []);
 
     const loaded = () => {
